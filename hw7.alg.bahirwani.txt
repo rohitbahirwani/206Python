@@ -1,0 +1,57 @@
+I created a tracing array, to keep track of the path. I analyzed the problem initially to design my solution such that I can keep track of the path as well as the cost while traversing the triangle.
+
+I stored the input from the maxtriangle.txt file to a 2-d list, and created the TracingArray list to be a list of lists, and i appended the best cost path to the list in the TracingArray.
+
+for Example:
+
+58
+72 40
+51 39 08
+25 52 05 33
+
+For the above input, my InputArray was:
+[58,0,0,0]
+[72, 40,0,0]
+[51, 39, 08, 0]
+[25, 52, 05, 33]
+
+The Tracing array is initialized to :
+
+[[58,0],[0,0],[0,0],[0,0]]
+[[72,0],[40,0],[0,0],[0,0]]
+[[51,0],[39,0],[08,0],[0,0]]
+[[25,0],[52,0],[05,0],[33,0]]
+
+
+Then I loop through the TracingArray as follows, starting from the last but one row:
+
+[[51,0],[39,0],[08,0],[0,0]]
+
+[51,0] : check the sum with the lists [25,0] and [52,0] and append the max to itself.
+[39,0] : check the sum with the lists [52,0] and [05,0] and append the max to itself.
+.
+.
+.
+
+at the end of the first loop:
+The TracingArray becomes:
+
+[[58,0],[0,0],[0,0],[0,0]]
+[[72,0],[40,0],[0,0],[0,0]]
+[[51,0,52,0],[39,0,52,0],[08,0,52,0],[0,0,33,0]]<----I append the whole list itself so that i can keep track of the path too
+[[25,0],[52,0],[05,0],[33,0]]
+
+Finally, the TracingArray becomes:
+
+[[58,0,72,0,51,0,52,0],[0,0],[0,0],[0,0]]
+[[72,0,51,0,52,0],[40,0,39,0,52,0],[0,0],[0,0]]
+[[51,0,52,0],[39,0,52,0],[08,0,52,0],[0,0]]
+[[25,0],[52,0],[05,0],[33,0]]
+
+Hence, at the end of the loop, the greatest path is in the TracingArray[0][0] position and the complete path is obtained and the cost can be found trivially by using the sum method.
+
+I use the below code to accomplish this, also note that the 0s need to be removed from the list, and the path is to be printed separated by "+"s:
+
+a=TracingArray[0][0]
+while 0 in a:
+	a.remove(0)

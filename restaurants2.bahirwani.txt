@@ -1,0 +1,40 @@
+Counter Offer,4
+Reem's,13
+Nostra,37
+Lord George,39
+The Italian Homemade Company,44
+The Spice Jar,68
+PianoFight,74
+Mateo's Taqueria,87
+Rove Kitchen,114
+The Chairman,145
+Rusty's Southern,160
+Hogwash,246
+Causwells,310
+The Italian Homemade Company,347
+Hopwater Distribution,362
+The Flying Falafel,378
+Bite,440
+Rickybobby,490
+Stones Throw,520
+Delicious Dim Sum,566
+Fat Angel,669
+La Fusión,714
+Garaje,808
+Nob Hill Cafe,837
+Hops & Hominy,1150
+Loló,1291
+SO,1346
+Kitchen Story,1391
+State Bird Provisions,1500
+Chez Maman,1513
+The Codmother Fish and Chips,1604
+Marlowe,1654
+HRD,1681
+Fog Harbor Fish House,1840
+Kokkari Estiatorio,3415
+The House,3581
+Nopa,4095
+Gary Danko,4295
+Brenda's French Soul Food,6693
+Ike's Place,6802

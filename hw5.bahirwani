@@ -1,0 +1,53 @@
+Q1
+“For each of the following actors, make a list of assumptions made by the following
+actors that may have appeared valid in isolation, but were not valid in the
+combination described in Honan's article: Amazon, Apple, Google, Twitter, and
+Honan himself.”
+“Assumptions” - the article talks about it. Ex: What did Apple think was a sufficient
+security measure?
+-----------------------------------------------------------------------------
+Answer:
+Amazon - For adding a credit card number to an account, Amazon considered that the name, email address and billing address were sufficient to allow a person to add a credit card number to an account. For adding a new email to the account the name, billing address, and the last four digits of the credit card number were considered sufficient to verify a user and allow them to insert a new email to the account. Amazon's assumptions were flawed because they did not take into account that these details might be gathered by malicious persons from other external sources and they might pose as legitimate users. It assumed that the last four digits of a credit card number associated with an account would be difficult to find for a malicious hacker. 
+Amazon probably assumed that only a legitimate person would want to add a credit card to an account.
+
+Apple - Apple assumed that the billing address and the last four digits of the credit card number are sufficient to authenticate and identify a person, and give out a temporary password to the iCloud account of the user.
+
+
+Google - It assumed that starring out a few characters from the username part of the email address would be a good enough measure to deter hackers from gaining access to another user's account during account recovery.
+
+Twitter - It assumed the underlying security of the email applications (Gmail in Honan's case) that users use to access their Twitter accounts.
+
+Honan - Honan assumed that having strong passwords (that he generated using 1Password) were a good enough security measure that he was taking on his part. Probably, he also assumed that companies like Amazon, Apple, etc. would already have strong security measures in place.
+He also assumed that it was safe to just store his emails and pictures on just his laptop and he did not consider to take a backup elsewhere.
+
+
+
+--------------------------------------------------------------------------------
+Q2
+“Honan writes: "My accounts were daisy-chained together. Getting into Amazon
+let my hackers get into my Apple ID account, which helped them get into Gmail,
+which gave them access to Twitter." What does Honan mean by "daisy-chained"?
+Give a different example from your own experience of "daisy-chaining" accounts
+together. Have you taken steps to keep breaches from happening as a result of
+"daisy chaining"? If so, describe those steps. If not, think about some steps you
+could take to deter breaches.”
+----------------------------------------------------------------------
+Answer:
+What Honan means by daisy-chaining of his accounts is that if you could break into one of his accounts, you could get the necessary information to break into the next account in the chain. 
+For example, many people use their gmail account to access their facebook account, so if someone can break into a person's gmail account, they may be able to access their facebook too.
+
+No, currently I have not taken the requisite steps to deter such breaches. What I could probably do is use a separate account for each service or application that I use online. Also, one should use two-factor authentication wherever possible for greater security. Also, as Honan suggests too, we could keep one account that is solely used for recovery purposes and not use it anywhere else. Also it would be better to not include our first name/ last name in the username.
+
+
+
+-----------------------------------------------------------------------------
+Q3
+“Honan regrets that he did not use "two-factor authentication" for his gmail
+account. What does "two-factor authentication" mean? Many people believe the
+use of two-factor authentication can introduce its own security risks. What might
+those risks be?”
+-----------------------------------------------------------------------------
+Answer:
+Two-factor authentication means using more than just your username and password to authenticate a person to use their account. The second factor (other than the password) could be biometric authentication, knowledge based authentication(such as zip code) or object based authentication (ATM card, phone, etc.)
+
+The risks to two-factor authentication are that the hackers may resort to leveraging the account recovery feature to hack into user's accounts and thus render two-factor authentication just as good (or as bad) as single-factor authentication. Hackers could also try to get access to physical components such as ATM cards, or hack into security devices such as RSA's SecureID tokens.

@@ -1,0 +1,40 @@
+Nani,28
+The Soapbox Cafe,44
+Elephant Sushi Golden Gate,64
+PianoFight,74
+Mateoâ€™s Taqueria,87
+Bayshore Taqueria,89
+Little Heaven Deli,100
+Californios,102
+Montesacro Pinseria Romana Enoteca,127
+The Chairman,145
+Eight AM,170
+Marcellaâ€™s Lasagneria,185
+De Afghanan Kabob House,219
+Cafe du Soleil,220
+The Italian Homemade Company,347
+The Flying Falafel,378
+Crepes A Go Go,498
+Liholiho Yacht Club,515
+Stones Throw,520
+Hot Sauce and Panko,614
+La FusiÃ³n,714
+Leopoldâ€™s,758
+Garaje,808
+Deli Board,883
+Anchor Oyster Bar,1008
+Louâ€™s Cafe,1103
+Frances,1138
+State Bird Provisions,1500
+Rosamunde Sausage Grill,1505
+Arizmendi Bakery,1557
+The Codmother Fish and Chips,1604
+Sotto Mare,2120
+Chapeau!,2251
+Little Star Pizza,2461
+Saigon Sandwich,2599
+Hog Island Oyster Co,3153
+Kokkari Estiatorio,3415
+The House,3581
+Gary Danko,4295
+Ikeâ€™s Place,6802

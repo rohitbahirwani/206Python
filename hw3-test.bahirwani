@@ -1,0 +1,14 @@
+What happens if catalog.txt comes in an unexpected format? What happens if a link is broken or the contents come in an unexpected format? etc.
+ 
+I tested my program to ensure that it does not crash for blank catalog files, catalog files with extra blank lines, and also broken URL giving:
+http://people.ischool.berkeley.edu/~tygar/for.i206/pg7 instead of correct http://people.ischool.berkeley.edu/~tygar/for.i206/pg74.txt.
+
+ What are the boundary cases? 
+
+I also tested my program using a large number of words at random (alice, mrs, darcy, daughters, etc) to check the count in various files and cross-checked manually in them to verify the counts. Also checked that there are no numbers/punctuations, etc.
+
+I tested that all search results are shown in descending order of the word counts.
+
+I tested for all the debugging options too. 
+
+I have implemented the extra credit, pls make sure your access to gutenberg is not blocked before checking this assignment - else my program will throw an Exception :D
